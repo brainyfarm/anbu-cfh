@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/andela/anbu-cfh.svg?branch=chore%2F13424926%2Fintegrat-travis-ci-with-readme)](https://travis-ci.org/andela/anbu-cfh)
 
+[![Coverage Status](https://coveralls.io/repos/github/andela/anbu-cfh/badge.svg?branch=master)](https://coveralls.io/github/andela/anbu-cfh?branch=master)
+
 Cards for Humanity - [http://cfh.io](http://cfh.io)
 ===========
 Cards for Humanity is a fast-paced online version of the popular card game, Cards Against Humanity, that gives you the opportunity to donate to children in need - all while remaining as despicable and awkward as you naturally are.
