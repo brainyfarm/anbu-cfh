@@ -8,13 +8,16 @@ services:
   - MongoDB
 
 notifications:
-  slack: andela:z3nvQcCTtlXds0Ph747yA4QH
-  template:
-      - "%{repository_slug} 
-      - %{branch}
-      - %{author}
-      - %{commit_subject}
-      - %{repository} (%{commit}) : %{message} %{foo} "
+  slack: 
+    rooms:
+      - andela:z3nvQcCTtlXds0Ph747yA4QH
+    template:
+      - "Repository: %{repository_slug}"
+      - "Build number: #%{build_number}"
+      - "Branch: %{branch}"
+      - "Author: %{author}"
+      - "Subject: %{commit_subject}"
+      - "%{repository} (%{commit}) : %{message}"
       - "Build details: %{build_url}"
 
 before_script:
