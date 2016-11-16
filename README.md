@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/andela/anbu-cfh.svg?branch=chore%2F13424926%2Fintegrat-travis-ci-with-readme)](https://travis-ci.org/andela/anbu-cfh)
-
-[![Coverage Status](https://coveralls.io/repos/github/andela/anbu-cfh/badge.svg?branch=master)](https://coveralls.io/github/andela/anbu-cfh?branch=master)
+[![Build Status](https://travis-ci.org/andela/anbu-cfh.svg?branch=chore%2F13424926%2Fintegrat-travis-ci-with-readme)](https://travis-ci.org/andela/anbu-cfh) [![Coverage Status](https://coveralls.io/repos/github/andela/anbu-cfh/badge.svg?branch=master)](https://coveralls.io/github/andela/anbu-cfh?branch=master)
 
 Cards for Humanity - [http://cfh.io](http://cfh.io)
 ===========
