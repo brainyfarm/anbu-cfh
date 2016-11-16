@@ -1,3 +1,5 @@
+[![codebeat badge](https://codebeat.co/badges/aa2e3819-2f12-4593-83ab-10660560550c)](https://codebeat.co/projects/github-com-andela-anbu-cfh)
+
 Cards for Humanity - [http://cfh.io](http://cfh.io)
 ===========
 Cards for Humanity is a fast-paced online version of the popular card game, Cards Against Humanity, that gives you the opportunity to donate to children in need - all while remaining as despicable and awkward as you naturally are.
