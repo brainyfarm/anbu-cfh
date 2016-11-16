@@ -1,3 +1,23 @@
+language: node_js
+
+node_js:
+  - "6"
+  - "5"
+  - "4"
+services:
+  - MongoDB
+
+notifications:
+  slack: andela:z3nvQcCTtlXds0Ph747yA4QH
+  template:
+      - "%{repository_slug} 
+      - %{branch}
+      - %{author}
+      - %{commit_subject}
+      - %{repository} (%{commit}) : %{message} %{foo} "
+      - "Build details: %{build_url}"
+
 before_script:
   - npm install -g gulp
+
 script: gulp
