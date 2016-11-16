@@ -20,9 +20,15 @@ notifications:
       - "%{repository} (%{commit}) : %{message}"
       - "Build details: %{build_url}"
 
+#before_script:
+ # - npm install -g gulp
+
+#script: gulp
+
+#after_success: 'npm run coveralls'
 before_script:
-  - npm install -g gulp
-
-script: gulp
-
-after_success: 'npm run coveralls'
+  - npm install
+  
+script:
+  - npm test
+#npm test
