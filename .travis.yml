@@ -1,0 +1,34 @@
+language: node_js
+
+node_js:
+  - "6"
+  - "5"
+  - "4"
+services:
+  - MongoDB
+
+notifications:
+  slack: 
+    rooms:
+      - andela:z3nvQcCTtlXds0Ph747yA4QH
+    template:
+      - "Repository: %{repository_slug}"
+      - "Build number: #%{build_number}"
+      - "Branch: %{branch}"
+      - "Author: %{author}"
+      - "Subject: %{commit_subject}"
+      - "%{repository} (%{commit}) : %{message}"
+      - "Build details: %{build_url}"
+
+#before_script:
+ # - npm install -g gulp
+
+#script: gulp
+
+#after_success: 'npm run coveralls'
+before_script:
+  - npm install
+  
+script:
+  - npm test
+#npm test
